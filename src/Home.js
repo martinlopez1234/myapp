@@ -1,11 +1,11 @@
-
+import { Link } from 'react-router-dom';
 import './App.css';
 import Footer from './Footer';
 function Home() {
   return (
     <>
 
-      <nav class="navbar navbar-expand-lg navbar-dark  bg-dark  p-3">
+      <nav class="navbar navbar-expand-lg navbar-dark  bg-dark  p-3 sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Abuel@Tech</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,14 +41,14 @@ function Home() {
         </div>
       </div>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid mb-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid mb-4 mx-auto">
         <div class="col">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1616587226960-4a03badbe8bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHZpZGVvJTIwY2FsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Acceso directo VideoLlamadas</h5>
               <p class="card-text">En este apartado se veran las distintas aplicaciones mas usadas de videoLlamada, como Zoom, Team, Meet y etc.</p>
-              <button className='btn btn-primary'>Ingresar a VideoLlamada</button>
+              <button className='btn btn-primary'><Link className='text-white' to={`/videoLLamada`}>Ingresar a VideoLlamada</Link></button>
             </div>
           </div>
         </div>

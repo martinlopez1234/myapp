@@ -1,17 +1,23 @@
 import React from 'react';
 
-import { BrowserRouter, Route, Routes } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './Home';
+import VideoLlamada from './VideoLlamada';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/videoLLamada' element={<VideoLlamada />} />
+      </Routes>
 
-    <Home />
+    </BrowserRouter>
 
   </React.StrictMode>
 );
