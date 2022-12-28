@@ -1,9 +1,11 @@
 import Footer from "./Footer";
+import GoToTop from "./GoToTop";
 import Navap from "./Navap";
 
 function VideoLlamada() {
   return (
     <>
+    <GoToTop/>
       <Navap />
 
       <div className="p-5 mb-4 bg-light rounded-3 jumbotron1 container-fluid ">

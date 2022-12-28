@@ -1,6 +1,7 @@
 
 import Footer from "./Footer";
 import Navap from "./Navap";
+import GoToTop from "./GoToTop";
 import { useEffect, useState } from 'react';
 
 function Bancos() {
@@ -28,8 +29,9 @@ function Bancos() {
 
   return (
     <>
+    <GoToTop/>
       <Navap />
-
+      
       <div className="p-5 mb-4 bg-light rounded-3 jumbotron2 container-fluid ">
         <div className="container-fluid py-5">
           <h1 className="display-2 fw-bold text-white text-center">Accesos Directos Bancos</h1>

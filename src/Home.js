@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import './App.css';
 import Footer from './Footer';
+import GoToTop from './GoToTop';
 function Home() {
   return (
     <>
-
+<GoToTop/>
       <nav class="navbar navbar-expand-lg navbar-dark  bg-dark  p-3 sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Abuel@Tech</a>
