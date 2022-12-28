@@ -26,7 +26,7 @@ function VideoLlamada() {
               <h5 class="card-title">Acceso directo Zoom</h5>
               <p class="card-text">
                 Haciendo click en el boton azul debajo te mandara directamente a la aplicación Zoom.</p>
-              <button className='btn btn-primary'><a className="text-white" href="https://zoom.us/signin#/login">Ingresar a Zoom</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://zoom.us/signin#/login">Ingresar a Zoom</a></button>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ function VideoLlamada() {
               <h5 class="card-title">Acceso directo Teams</h5>
               <p class="card-text">
                 Haciendo click en el boton azul debajo te mandara directamente a la aplicación Teams.</p>
-              <button className='btn btn-primary'><a className="text-white " href="https://www.microsoft.com/es-cl/microsoft-teams/log-in">Ingresar a Teams</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.microsoft.com/es-cl/microsoft-teams/log-in">Ingresar a Teams</a></button>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ function VideoLlamada() {
               <h5 class="card-title">Acceso directo Google Meet</h5>
               <p class="card-text">
                 Haciendo click en el boton azul debajo te mandara directamente a la aplicación Google Meet.</p>
-              <button className='btn btn-primary'><a className="text-white " href="https://meet.google.com/">Ingresar a Google Meet</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://meet.google.com/">Ingresar a Google Meet</a></button>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './Home';
 import VideoLlamada from './VideoLlamada';
+import Bancos from './Bancos';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/videoLLamada' element={<VideoLlamada />} />
+        <Route path='/Bancos' element={<Bancos />} />
       </Routes>
 
     </BrowserRouter>

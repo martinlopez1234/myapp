@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Footer from './Footer';
 function Home() {
@@ -48,7 +49,7 @@ function Home() {
             <div class="card-body">
               <h5 class="card-title">Acceso directo VideoLlamadas</h5>
               <p class="card-text">En este apartado se veran las distintas aplicaciones mas usadas de videoLlamada, como Zoom, Team, Meet y etc.</p>
-              <button className='btn btn-primary'><Link className='text-white' to={`/videoLLamada`}>Ingresar a VideoLlamada</Link></button>
+              <button className='btn btn-primary'><Link className='text-white nav-link' to={`/videoLLamada`}>Ingresar a VideoLlamada</Link></button>
             </div>
           </div>
         </div>
@@ -58,7 +59,7 @@ function Home() {
             <div class="card-body">
               <h5 class="card-title">Acceso directo Bancos</h5>
               <p class="card-text">En este apartado se veran los distintos bancos para acceder rapidamente a ellos como por ejemplo Banco de Chile, Banco Estado, Santander y etc.</p>
-              <button className='btn btn-primary'>Ingresar a Bancos</button>
+              <button className='btn btn-primary'><Link className='text-white nav-link' to={`/bancos`}>Ingresar a Bancos</Link></button>
             </div>
           </div>
         </div>
