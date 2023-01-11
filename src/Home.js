@@ -81,7 +81,7 @@ function Home() {
             <div class="card-body">
               <h5 class="card-title">Contactos de emegercia y personales</h5>
               <p class="card-text">En este apartado se mostraran contactos de emergecias y contactos personales los cuales podran visualizar de manera rapida y sencilla.</p>
-              <button className='btn btn-primary'>Ingresar a Contactos</button>
+              <button className='btn btn-primary'><Link className='text-white nav-link' to={`/Contactos`}>Contactos</Link></button>
             </div>
           </div>
         </div>

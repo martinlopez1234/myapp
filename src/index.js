@@ -8,6 +8,7 @@ import VideoLlamada from './VideoLlamada';
 import Bancos from './Bancos';
 import reportWebVitals from './reportWebVitals';
 import MediosComunicacion from './MediosComunicacion';
+import Contactos from './Contactos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path='/videoLLamada' element={<VideoLlamada />} />
         <Route path='/Bancos' element={<Bancos />} />
         <Route path='/medioscomunicacion' element={<MediosComunicacion />} />
+        <Route path='/contactos' element={<Contactos />} />
       </Routes>
 
     </BrowserRouter>
