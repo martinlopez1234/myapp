@@ -6,7 +6,7 @@ import GoToTop from './GoToTop';
 function Home() {
   return (
     <>
-<GoToTop/>
+      <GoToTop />
       <nav class="navbar navbar-expand-lg navbar-dark  bg-dark  p-3 sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Abuel@Tech</a>
@@ -70,7 +70,7 @@ function Home() {
             <div class="card-body">
               <h5 class="card-title">Acceso directo Medios de comunicación</h5>
               <p class="card-text">En este apartado se veran los distintos medios de comunicación como canales de noticias y periodicos online.</p>
-              <button className='btn btn-primary'>Ingresar a medios de comunicación</button>
+              <button className='btn btn-primary'><Link className='text-white nav-link' to={`/medioscomunicacion`}>Ingresar a Medios de Comunicación</Link></button>
             </div>
           </div>
         </div>
