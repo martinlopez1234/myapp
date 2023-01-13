@@ -9,6 +9,8 @@ import Bancos from './Bancos';
 import reportWebVitals from './reportWebVitals';
 import MediosComunicacion from './MediosComunicacion';
 import Contactos from './Contactos';
+import Tutoriales from './Tutoriales';
+import Registro from './Registro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +23,8 @@ root.render(
         <Route path='/Bancos' element={<Bancos />} />
         <Route path='/medioscomunicacion' element={<MediosComunicacion />} />
         <Route path='/contactos' element={<Contactos />} />
+        <Route path='/tutoriales' element={<Tutoriales />} />
+        <Route path='/registrarse' element={<Registro />} />
       </Routes>
 
     </BrowserRouter>

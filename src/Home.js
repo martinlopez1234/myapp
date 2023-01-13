@@ -18,13 +18,7 @@ function Home() {
             <span class="navbar-item">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Inicio de sesión</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Registrarse</a>
+                  <a class="nav-link text-light" href="#"><Link className='text-white nav-link' to={`/registrarse`}>¡REGISTRESE AQUI!</Link></a>
                 </li>
               </ul>
 
@@ -90,9 +84,9 @@ function Home() {
           <div class="card">
             <img src="https://images.unsplash.com/photo-1585829365343-ea8ed0b1cb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Acceso directo Tutoriales</h5>
+              <h5 class="card-title">Acceso directo Tutoriales de tecnologia</h5>
               <p class="card-text">En este apartado se mostraran distintos tutoriales de tecnologia de como usar el computador, telefono y entre otros dispositivos.</p>
-              <button className='btn btn-primary'>Ingresar a tutoriales</button>
+              <button className='btn btn-primary'><Link className='text-white nav-link' to={`/tutoriales`}>Ingresar a Tutoriales</Link></button>
             </div>
           </div>
         </div>
