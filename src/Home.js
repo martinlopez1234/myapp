@@ -96,7 +96,7 @@ function Home() {
             <div class="card-body">
               <h5 class="card-title">Acceso directo Entretenimiento</h5>
               <p class="card-text">En este apartados se mostraran distintos videojuegos como por ejemplo Sudoku, Domino, Memorize y entre otros.</p>
-              <button className='btn btn-primary'>Ingresar a Entretenimiento</button>
+              <button className='btn btn-primary'><Link className='text-white nav-link' to={`/entretenimiento`}>Ingresar a Entretenimiento</Link></button>
             </div>
           </div>
         </div>

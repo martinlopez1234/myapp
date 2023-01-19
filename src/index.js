@@ -11,6 +11,8 @@ import MediosComunicacion from './MediosComunicacion';
 import Contactos from './Contactos';
 import Tutoriales from './Tutoriales';
 import Registro from './Registro';
+import IniciarSesion from './IniciarSesion';
+import Entretenimiento from './Entretenimiento';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +27,8 @@ root.render(
         <Route path='/contactos' element={<Contactos />} />
         <Route path='/tutoriales' element={<Tutoriales />} />
         <Route path='/registrarse' element={<Registro />} />
+        <Route path='/iniciosesion' element={<IniciarSesion />} />
+        <Route path='/Entretenimiento' element={<Entretenimiento/>}/>
       </Routes>
 
     </BrowserRouter>

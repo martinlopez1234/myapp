@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import GoToTop from "./GoToTop";
 import Navap from "./Navap";
+import { Link } from 'react-router-dom';
 
 function Contactos() {
   return (
@@ -54,7 +55,7 @@ function Contactos() {
             <img src="https://images.unsplash.com/photo-1559054109-82d938dac629?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width={"370px"} height={"370px"} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Agregar contactos personales</h5>
-              <button type="button" class="btn btn-primary">INICIE SESIÓN PARA AGREGAR CONTACTOS FAMILIARES O AMIGOS.</button>
+              <button className='btn btn-primary'><Link className='text-white nav-link' to={`/iniciosesion`}>INICIE SESIÓN PARA AGREGAR CONTACTOS FAMILIARES O AMIGOS.</Link></button>
             </div>
           </div>
         </div>
