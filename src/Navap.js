@@ -5,7 +5,7 @@ function Navap() {
 
       <nav class="navbar navbar-expand-lg navbar-dark  bg-dark  p-3 sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand " ><Link className="text-white " to={`/`}>Haga click aqui para volver al inicio <img src="https://cdn-icons-png.flaticon.com/512/7510/7510228.png" width={"50px"} /></Link> </a>
+          <a class="navbar-brand " ><Link className="text-white " to={`/myapp`}>Haga click aqui para volver al inicio <img src="https://cdn-icons-png.flaticon.com/512/7510/7510228.png" width={"50px"} /></Link> </a>
 
 
 
