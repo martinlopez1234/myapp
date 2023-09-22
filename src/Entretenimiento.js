@@ -35,7 +35,7 @@ function Entretenimiento() {
               <h5 class="card-title">Memorize</h5>
               <p class="card-text">
                 Haciendo click en el boton azul debajo te mandara directamente a juego Memorize.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.emol.com/">Ingresar a Memorize</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.juegosdememoriagratis.com/adultos/01-simples/s-retratos.html">Ingresar a Memorize</a></button>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ function Entretenimiento() {
               <h5 class="card-title">Sudoku</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a juego Sudoku.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.lun.com/">Ingresar a Sudoku</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://sudoku.com/es">Ingresar a Sudoku</a></button>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ function Entretenimiento() {
               <h5 class="card-title">Crucigrama</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a juego Crucigrama.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.latercera.com/">Ingresar a Crucigrama</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.epasatiempos.es/crucigramas.php">Ingresar a Crucigrama</a></button>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ function Entretenimiento() {
               <h5 class="card-title">Solitario</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a juego Solitario.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.tvn.cl/">Ingresar a Solitario</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.solitar.io/solitario1">Ingresar a Solitario</a></button>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ function Entretenimiento() {
               <h5 class="card-title">Puzzle</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a juego Puzzle.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.mega.cl/">Ingresar a Puzzle</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.jigsawplanet.com/?lang=es-ES">Ingresar a Puzzle</a></button>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ function Entretenimiento() {
               <h5 class="card-title">Sopa de Letras</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a juego Sopa de Letras.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.t13.cl/">Ingresar Sopa de Letras </a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://api.razzlepuzzles.com/wordsearch?locale=es">Ingresar Sopa de Letras </a></button>
             </div>
           </div>
         </div>

@@ -42,7 +42,7 @@ function Tutoriales() {
               <h5 class="card-title">Tutoriales de computador</h5>
               <p class="card-text">
                 Haciendo click en el boton azul debajo te mandara directamente a tutoriales de computadora.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.emol.com/">Ingresar a tutoriales computador</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://youtu.be/s_Az3Azecuc">Ingresar a tutoriales computador</a></button>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ function Tutoriales() {
               <h5 class="card-title">Tutoriales de telefono</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a tutoriales de telefono.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.lun.com/">Ingresar a tutoriales de telefono</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://youtu.be/WO-hpL6U_rw">Ingresar a tutoriales de telefono</a></button>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ function Tutoriales() {
               <h5 class="card-title">Tutoriales de tablet</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a tutoriales de tablet.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.latercera.com/">Ingresar a tutoriales de tablet</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://youtu.be/7air4ivqnh8">Ingresar a tutoriales de tablet</a></button>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ function Tutoriales() {
               <h5 class="card-title">Tutoriales de correo</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a tutoriales de correo.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.tvn.cl/">Ingresar a tutoriales de correo</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://youtu.be/QWpO5x-h2K4">Ingresar a tutoriales de correo</a></button>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ function Tutoriales() {
               <h5 class="card-title">Tutoriales de whassap</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a tutoriales de Whasapp.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.mega.cl/">Ingresar a tutoriales de whasap</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://youtu.be/GeZn-ETiacs">Ingresar a tutoriales de whasap</a></button>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@ function Tutoriales() {
               <h5 class="card-title">Tutoriales de internet</h5>
               <p class="card-text">
               Haciendo click en el boton azul debajo te mandara directamente a tutoriales de navegacion en internet.</p>
-              <button className='btn btn-primary'><a className="text-white nav-link" href="https://www.t13.cl/">Ingresar tutoriales de internet</a></button>
+              <button className='btn btn-primary'><a className="text-white nav-link" href="https://youtu.be/86IVvCCdzw4">Ingresar tutoriales de internet</a></button>
             </div>
           </div>
         </div>
